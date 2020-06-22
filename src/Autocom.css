@@ -1,0 +1,46 @@
+.Autocom {
+  width: 100%;
+  border: 2px solid gray;
+  box-shadow: darkgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.Autocom input {
+  width: 100%;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+.Autocom ul {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid gray;
+}
+.Autocom ul::before {
+  content: "";
+}
+.Autocom li {
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.Autocom li:hover {
+  text-decoration: underline;
+  background-color: gainsboro;
+}
+.button {
+  width: 100%;
+  border: 2px solid gray;
+  box-shadow: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-top: 100px;
+  background-color: rgba(19, 199, 19, 0.836);
+}
